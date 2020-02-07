@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+ 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var btn: UIButton!
     @IBOutlet weak var txtField: UITextField!
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
         if let name = txtField.text {
             //if there's sth inside the box, do the following
             label.text = "Hello, \(name)"
+            print("hi 2")
         }
 
     }
